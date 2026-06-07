@@ -1,0 +1,145 @@
+{
+  "name": "经济学文献雷达",
+  "language": "zh-CN",
+  "daily_target_count": 20,
+  "timezone": "Asia/Shanghai",
+  "schedule": "09:00",
+  "strategy": {
+    "recent_additions": 5,
+    "rolling_backfill": 10,
+    "journal_rotation": 5,
+    "backfill_days": 365
+  },
+  "topics": [
+    {
+      "id": "ai_economics",
+      "name": "人工智能与经济学",
+      "keywords": [
+        "artificial intelligence",
+        "generative AI",
+        "large language model",
+        "automation",
+        "algorithm",
+        "digital transformation",
+        "AI adoption"
+      ]
+    },
+    {
+      "id": "labor",
+      "name": "劳动经济学",
+      "keywords": [
+        "labor market",
+        "employment",
+        "wage",
+        "skill",
+        "task",
+        "human capital",
+        "productivity"
+      ]
+    },
+    {
+      "id": "rat_race",
+      "name": "内卷式竞争",
+      "keywords": [
+        "rat race",
+        "tournament",
+        "peer competition",
+        "overwork",
+        "promotion incentives",
+        "education competition",
+        "performance pressure"
+      ]
+    },
+    {
+      "id": "corporate_finance",
+      "name": "公司金融",
+      "keywords": [
+        "corporate finance",
+        "financing constraints",
+        "capital structure",
+        "corporate governance",
+        "disclosure",
+        "investment",
+        "innovation",
+        "mergers and acquisitions"
+      ]
+    },
+    {
+      "id": "banking",
+      "name": "银行与金融中介",
+      "keywords": [
+        "banking",
+        "credit",
+        "bank competition",
+        "risk taking",
+        "financial stability",
+        "monetary policy transmission",
+        "financial intermediation"
+      ]
+    },
+    {
+      "id": "china",
+      "name": "中国经济与制度背景",
+      "keywords": [
+        "China",
+        "Chinese firms",
+        "Chinese economy",
+        "Chinese financial markets",
+        "institutional context"
+      ]
+    }
+  ],
+  "sources": {
+    "working_papers": [
+      "NBER",
+      "SSRN",
+      "arXiv"
+    ],
+    "metadata": [
+      "OpenAlex",
+      "Crossref"
+    ],
+    "english_journals": [
+      "American Economic Review",
+      "Review of Economic Studies",
+      "Journal of Business & Economic Statistics",
+      "Journal of Financial Economics",
+      "Management Science",
+      "Review of Economics and Statistics",
+      "Journal of Banking and Finance",
+      "Journal of Corporate Finance",
+      "Journal of Economic Behavior and Organization"
+    ],
+    "chinese_journals": [
+      "经济研究",
+      "管理世界",
+      "金融研究",
+      "数量经济技术经济研究",
+      "中国工业经济",
+      "经济学动态",
+      "财贸研究",
+      "经济学季刊"
+    ]
+  },
+  "summary_fields": [
+    "title",
+    "authors",
+    "date",
+    "source",
+    "link",
+    "research_question",
+    "motivation",
+    "innovation",
+    "mechanism",
+    "data_and_method",
+    "main_findings",
+    "relevance",
+    "priority",
+    "evidence_note"
+  ],
+  "rules": [
+    "Do not fabricate papers, authors, links, abstracts, or findings.",
+    "If only title or metadata is available, mark evidence as limited and avoid inventing conclusions.",
+    "For arXiv, include only economics, finance, social science application, policy evaluation, text-as-data, or econometrics-related work."
+  ]
+}

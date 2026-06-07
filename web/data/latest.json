@@ -1,0 +1,601 @@
+{
+  "meta": {
+    "schemaVersion": 1,
+    "generatedAt": "2026-06-07T13:43:18.678Z",
+    "runLabel": "seed-data",
+    "displayDate": "2026-06-07",
+    "note": "Seed data copied from the prototype. These are example cards, not live literature recommendations yet."
+  },
+  "papers": [
+    {
+      "id": "demo-ai-labor-1",
+      "title": "示例 | Generative AI and Task Reallocation in Firms",
+      "zh": "生成式 AI 与企业内部任务再分配",
+      "authors": "Sample Authors",
+      "date": "2026-06-07",
+      "source": "NBER",
+      "bucket": "最近新增",
+      "url": "#",
+      "priority": "high",
+      "score": 94,
+      "tags": [
+        "AI",
+        "劳动经济学",
+        "企业行为",
+        "生产率"
+      ],
+      "question": "企业采用生成式 AI 后，哪些任务被替代、增强或重新分配？",
+      "motivation": "AI 冲击不只体现为就业数量变化，更可能先改变岗位内部任务结构和组织边界。",
+      "innovation": "把 AI 采用、岗位任务文本和企业生产率变化放在同一个识别框架里。",
+      "mechanism": "AI 降低信息处理与文本生产成本，使中间技能任务被重组，高技能员工转向判断和协调。",
+      "method": "企业层面 AI 采用事件 + 在线招聘任务文本 + 双重差分。",
+      "findings": "示例占位：真实接入后只在有摘要或正文证据时填入发现。",
+      "relevance": "与你的 AI × 劳动市场、AI × 企业行为方向高度相关。"
+    },
+    {
+      "id": "demo-bank-ai-2",
+      "title": "示例 | AI Credit Scoring and Bank Risk Taking",
+      "zh": "AI 信贷评分与银行风险承担",
+      "authors": "Sample Authors",
+      "date": "2026-06-05",
+      "source": "SSRN",
+      "bucket": "最近新增",
+      "url": "#",
+      "priority": "high",
+      "score": 91,
+      "tags": [
+        "AI",
+        "银行",
+        "信贷",
+        "金融稳定"
+      ],
+      "question": "AI 信贷模型会改善风险定价，还是诱发银行向更难观测的风险迁移？",
+      "motivation": "银行数字化和算法信贷正在改变授信边界，但风险承担机制并不清楚。",
+      "innovation": "把模型预测精度、贷款审批边际和事后违约风险同时放入分析。",
+      "mechanism": "算法降低可量化风险的信息摩擦，同时可能提高银行对模型盲区风险的容忍。",
+      "method": "贷款级数据、模型上线时间、边际借款人比较。",
+      "findings": "示例占位：真实版本会区分摘要事实和模型推断。",
+      "relevance": "贴合银行、AI 金融应用和风险承担交叉。"
+    },
+    {
+      "id": "demo-ratrace-3",
+      "title": "示例 | Rat Race Incentives and Overwork in Competitive Labor Markets",
+      "zh": "内卷式激励与竞争性劳动市场中的过度工作",
+      "authors": "Sample Authors",
+      "date": "2026-05-28",
+      "source": "arXiv",
+      "bucket": "回溯补库",
+      "url": "#",
+      "priority": "high",
+      "score": 89,
+      "tags": [
+        "内卷式竞争",
+        "劳动供给",
+        "锦标赛",
+        "组织管理"
+      ],
+      "question": "相对绩效激励为什么会导致过度劳动供给而非生产率提升？",
+      "motivation": "许多组织中的竞争并不产生真实创新，而是推动可见努力的军备竞赛。",
+      "innovation": "用可见努力和真实产出之间的分离解释内卷式竞争。",
+      "mechanism": "当晋升取决于相对可见努力时，个体会投入更多低效率努力以维持排名。",
+      "method": "理论模型 + 企业考核制度变化的经验检验。",
+      "findings": "示例占位：真实数据接入后展示摘要支持的结论。",
+      "relevance": "直接对应你的内卷式竞争、rat race 和劳动经济学兴趣。"
+    },
+    {
+      "id": "demo-corpfin-4",
+      "title": "示例 | Financing Constraints, AI Investment, and Firm Innovation",
+      "zh": "融资约束、AI 投资与企业创新",
+      "authors": "Sample Authors",
+      "date": "2026-04-18",
+      "source": "NBER",
+      "bucket": "回溯补库",
+      "url": "#",
+      "priority": "high",
+      "score": 88,
+      "tags": [
+        "公司金融",
+        "AI",
+        "企业创新",
+        "融资约束"
+      ],
+      "question": "融资约束是否阻碍企业把 AI 技术转化为创新产出？",
+      "motivation": "AI 投资常有固定成本和组织调整成本，金融约束可能加剧企业间差距。",
+      "innovation": "把 AI 投资视为一种需要外部融资支持的无形资本积累。",
+      "mechanism": "融资约束限制数据、算力和人才投入，使低融资能力企业难以跨过采用门槛。",
+      "method": "企业专利、招聘、软件投资和信贷冲击的匹配数据。",
+      "findings": "示例占位。",
+      "relevance": "连接公司金融、AI 和企业创新。"
+    },
+    {
+      "id": "demo-china-5",
+      "title": "示例 | 数字化转型、同业竞争与企业劳动需求",
+      "zh": "数字化转型、同业竞争与企业劳动需求",
+      "authors": "示例作者",
+      "date": "2026-03-20",
+      "source": "中国工业经济",
+      "bucket": "中文期刊",
+      "url": "#",
+      "priority": "high",
+      "score": 86,
+      "tags": [
+        "中国经济",
+        "数字化转型",
+        "劳动需求",
+        "企业竞争"
+      ],
+      "question": "数字化转型如何改变企业在竞争压力下的用工需求？",
+      "motivation": "中国企业数字化和同业竞争同时加速，二者对劳动需求可能存在交互影响。",
+      "innovation": "关注数字化转型和产品市场竞争的联合效应。",
+      "mechanism": "数字化提高流程效率，也可能强化对复合型技能和数据岗位的需求。",
+      "method": "上市公司年报文本、行业竞争指标和用工结构。",
+      "findings": "示例占位。",
+      "relevance": "适合连接中国制度背景、AI/数字化和劳动经济学。"
+    },
+    {
+      "id": "demo-monetary-6",
+      "title": "示例 | Bank Competition and Monetary Policy Transmission",
+      "zh": "银行竞争与货币政策传导",
+      "authors": "Sample Authors",
+      "date": "2026-02-11",
+      "source": "SSRN",
+      "bucket": "回溯补库",
+      "url": "#",
+      "priority": "mid",
+      "score": 78,
+      "tags": [
+        "银行",
+        "货币政策",
+        "信贷",
+        "金融中介"
+      ],
+      "question": "银行竞争结构会放大还是削弱货币政策对企业信贷的影响？",
+      "motivation": "同样的政策利率变化，在不同银行市场结构中可能产生不同信贷响应。",
+      "innovation": "把地方银行竞争与企业借款关系网络结合。",
+      "mechanism": "竞争越强，银行吸收成本冲击的能力越弱，但也可能更积极争夺优质客户。",
+      "method": "地区银行分支机构、贷款数据、政策冲击。",
+      "findings": "示例占位。",
+      "relevance": "银行、信贷和政策传导方向的基础文献候选。"
+    },
+    {
+      "id": "demo-ai-text-7",
+      "title": "示例 | Measuring AI Exposure with Job Postings and Firm Disclosures",
+      "zh": "用招聘文本和企业披露测度 AI 暴露",
+      "authors": "Sample Authors",
+      "date": "2026-01-30",
+      "source": "arXiv",
+      "bucket": "最近新增",
+      "url": "#",
+      "priority": "mid",
+      "score": 76,
+      "tags": [
+        "AI",
+        "文本分析",
+        "测度",
+        "公司金融"
+      ],
+      "question": "如何构造更贴近企业层面的 AI 暴露指标？",
+      "motivation": "现有职业暴露指标难以解释企业之间的采用差异。",
+      "innovation": "结合招聘需求、年报语义和行业技术词典。",
+      "mechanism": "企业 AI 暴露来自任务需求、战略披露和技术投入三类信号。",
+      "method": "文本嵌入、主题模型、人工校验样本。",
+      "findings": "示例占位。",
+      "relevance": "可作为你之后做 AI 相关实证研究的工具型文献。"
+    },
+    {
+      "id": "demo-disclosure-8",
+      "title": "示例 | Competitive Pressure and Voluntary Disclosure",
+      "zh": "竞争压力与企业自愿披露",
+      "authors": "Sample Authors",
+      "date": "2025-12-19",
+      "source": "OpenAlex",
+      "bucket": "回溯补库",
+      "url": "#",
+      "priority": "mid",
+      "score": 74,
+      "tags": [
+        "公司金融",
+        "竞争",
+        "信息披露"
+      ],
+      "question": "产品市场竞争如何改变企业披露策略？",
+      "motivation": "披露既能降低融资成本，也可能泄露竞争信息。",
+      "innovation": "区分融资型披露和竞争敏感型披露。",
+      "mechanism": "竞争压力提高信息泄露成本，融资压力提高透明度收益。",
+      "method": "文本披露指标、行业冲击、企业融资需求。",
+      "findings": "示例占位。",
+      "relevance": "连接公司金融、竞争和信息机制。"
+    },
+    {
+      "id": "demo-education-race-9",
+      "title": "示例 | Education Competition, Credential Inflation, and Labor Market Entry",
+      "zh": "教育竞争、学历膨胀与劳动力市场进入",
+      "authors": "Sample Authors",
+      "date": "2025-11-08",
+      "source": "NBER",
+      "bucket": "回溯补库",
+      "url": "#",
+      "priority": "mid",
+      "score": 72,
+      "tags": [
+        "内卷式竞争",
+        "教育",
+        "劳动经济学"
+      ],
+      "question": "教育竞争是否提高真实人力资本，还是主要推高信号成本？",
+      "motivation": "学历膨胀是内卷式竞争在教育系统中的典型表现。",
+      "innovation": "把教育投资拆分为技能积累和信号竞争两部分。",
+      "mechanism": "岗位筛选标准上升引发个体追加教育投资，但边际生产率提升有限。",
+      "method": "政策变化、教育选择、初始工资和职业路径。",
+      "findings": "示例占位。",
+      "relevance": "为内卷式竞争提供教育场景。"
+    },
+    {
+      "id": "demo-financial-research-10",
+      "title": "示例 | 金融科技、银行竞争与中小企业融资",
+      "zh": "金融科技、银行竞争与中小企业融资",
+      "authors": "示例作者",
+      "date": "2025-10-15",
+      "source": "金融研究",
+      "bucket": "中文期刊",
+      "url": "#",
+      "priority": "mid",
+      "score": 71,
+      "tags": [
+        "银行",
+        "金融科技",
+        "中小企业",
+        "中国经济"
+      ],
+      "question": "金融科技是否缓解中小企业融资约束，还是强化头部企业优势？",
+      "motivation": "中国金融科技发展快，但普惠金融效果需要更细分地评估。",
+      "innovation": "区分银行数字能力和地区金融科技基础设施。",
+      "mechanism": "技术降低硬信息处理成本，但软信息替代可能改变银行客户结构。",
+      "method": "银行分支机构、企业贷款、地区金融科技指数。",
+      "findings": "示例占位。",
+      "relevance": "银行、公司金融和中国制度背景交叉。"
+    },
+    {
+      "id": "demo-productivity-11",
+      "title": "示例 | Automation, Management Practices, and Productivity Dispersion",
+      "zh": "自动化、管理实践与生产率差距",
+      "authors": "Sample Authors",
+      "date": "2025-09-22",
+      "source": "SSRN",
+      "bucket": "回溯补库",
+      "url": "#",
+      "priority": "mid",
+      "score": 70,
+      "tags": [
+        "自动化",
+        "生产率",
+        "组织管理"
+      ],
+      "question": "为什么相同自动化技术在企业间产生不同生产率回报？",
+      "motivation": "技术采用效果取决于管理互补性。",
+      "innovation": "把自动化投资和管理实践作为互补投入估计。",
+      "mechanism": "管理能力强的企业更能重组流程，使自动化产生生产率收益。",
+      "method": "企业调查、设备投资、生产率估计。",
+      "findings": "示例占位。",
+      "relevance": "补充 AI 与企业组织管理的基础机制。"
+    },
+    {
+      "id": "demo-industrial-12",
+      "title": "示例 | 中国制造业企业的数字投资与就业结构调整",
+      "zh": "中国制造业企业的数字投资与就业结构调整",
+      "authors": "示例作者",
+      "date": "2025-08-07",
+      "source": "经济研究",
+      "bucket": "中文期刊",
+      "url": "#",
+      "priority": "mid",
+      "score": 69,
+      "tags": [
+        "中国经济",
+        "劳动",
+        "数字化转型"
+      ],
+      "question": "数字投资如何影响制造业企业内部就业结构？",
+      "motivation": "制造业数字化可能同时替代常规任务并创造技术岗位。",
+      "innovation": "从企业内部技能结构而非总就业量识别影响。",
+      "mechanism": "数字资本替代重复性任务，增加技术维护、数据分析和流程管理需求。",
+      "method": "工业企业数据、招聘文本、数字投资指标。",
+      "findings": "示例占位。",
+      "relevance": "AI/数字化 × 劳动市场的中文核心候选。"
+    },
+    {
+      "id": "demo-governance-13",
+      "title": "示例 | Board Expertise and Corporate AI Strategy",
+      "zh": "董事会专业背景与企业 AI 战略",
+      "authors": "Sample Authors",
+      "date": "2025-07-26",
+      "source": "Crossref",
+      "bucket": "回溯补库",
+      "url": "#",
+      "priority": "low",
+      "score": 63,
+      "tags": [
+        "公司治理",
+        "AI",
+        "企业战略"
+      ],
+      "question": "董事会技术背景是否影响企业 AI 战略选择？",
+      "motivation": "AI 转型需要治理层理解技术不确定性。",
+      "innovation": "把董事技术经历作为战略认知能力代理变量。",
+      "mechanism": "技术型董事降低管理层采用新技术的信息成本和监督成本。",
+      "method": "董事履历、企业 AI 披露、投资事件。",
+      "findings": "示例占位。",
+      "relevance": "适合作为公司金融与 AI 交叉的边缘候选。"
+    },
+    {
+      "id": "demo-tournament-14",
+      "title": "示例 | Promotion Tournaments and Innovation Choices",
+      "zh": "晋升锦标赛与创新选择",
+      "authors": "Sample Authors",
+      "date": "2025-06-29",
+      "source": "OpenAlex",
+      "bucket": "回溯补库",
+      "url": "#",
+      "priority": "low",
+      "score": 61,
+      "tags": [
+        "锦标赛",
+        "企业创新",
+        "组织激励"
+      ],
+      "question": "晋升竞争会鼓励突破式创新还是短期可见成果？",
+      "motivation": "组织内部竞争可能扭曲创新项目选择。",
+      "innovation": "区分短周期创新和高风险长期创新。",
+      "mechanism": "锦标赛奖励可观察成果，使员工偏向短期、低风险项目。",
+      "method": "研发团队、晋升制度变化、专利类型。",
+      "findings": "示例占位。",
+      "relevance": "和内卷式竞争、企业创新有概念联系。"
+    },
+    {
+      "id": "demo-policy-15",
+      "title": "示例 | Industrial Policy, Bank Credit, and Firm Upgrading",
+      "zh": "产业政策、银行信贷与企业升级",
+      "authors": "Sample Authors",
+      "date": "2025-05-18",
+      "source": "NBER",
+      "bucket": "回溯补库",
+      "url": "#",
+      "priority": "low",
+      "score": 60,
+      "tags": [
+        "产业政策",
+        "银行",
+        "企业升级"
+      ],
+      "question": "产业政策是否通过银行信贷影响企业升级？",
+      "motivation": "政策支持通常与金融资源配置共同作用。",
+      "innovation": "同时识别政策资格和银行信贷供给。",
+      "mechanism": "政策信号降低银行风险感知，推动目标企业获得更多长期资金。",
+      "method": "政策名单、银行贷款、企业投资和生产率。",
+      "findings": "示例占位。",
+      "relevance": "适合银行、公司金融和中国经济背景。"
+    },
+    {
+      "id": "demo-quant-16",
+      "title": "示例 | Text-as-Data Methods for Economics Literature Tracking",
+      "zh": "经济学文献追踪中的文本数据方法",
+      "authors": "Sample Authors",
+      "date": "2025-04-12",
+      "source": "arXiv",
+      "bucket": "回溯补库",
+      "url": "#",
+      "priority": "low",
+      "score": 58,
+      "tags": [
+        "文本分析",
+        "计量方法",
+        "文献追踪"
+      ],
+      "question": "如何用文本方法为经济学文献做主题识别和相关性排序？",
+      "motivation": "文献过载需要可解释的自动筛选框架。",
+      "innovation": "把关键词、嵌入相似度和人工反馈结合。",
+      "mechanism": "用户标记精读偏好后，系统逐步调整主题权重。",
+      "method": "文本嵌入、主动学习、人工反馈。",
+      "findings": "示例占位。",
+      "relevance": "可以服务这个文献雷达本身。"
+    },
+    {
+      "id": "demo-qje-cn-17",
+      "title": "示例 | 企业竞争压力与员工工作时间",
+      "zh": "企业竞争压力与员工工作时间",
+      "authors": "示例作者",
+      "date": "2025-03-03",
+      "source": "经济学季刊",
+      "bucket": "中文期刊",
+      "url": "#",
+      "priority": "low",
+      "score": 57,
+      "tags": [
+        "内卷式竞争",
+        "劳动供给",
+        "中国经济"
+      ],
+      "question": "企业层面的竞争压力是否传导为员工加班和劳动供给增加？",
+      "motivation": "内卷式竞争常在企业和员工之间层层传导。",
+      "innovation": "从产品市场竞争追踪到员工工时。",
+      "mechanism": "竞争压缩利润空间，企业通过绩效考核和工作强度转嫁压力。",
+      "method": "企业竞争指标、员工调查、工时数据。",
+      "findings": "示例占位。",
+      "relevance": "中文语境下的内卷式竞争候选。"
+    },
+    {
+      "id": "demo-dynamics-18",
+      "title": "示例 | 生成式 AI 对经济学研究范式的影响",
+      "zh": "生成式 AI 对经济学研究范式的影响",
+      "authors": "示例作者",
+      "date": "2025-02-10",
+      "source": "经济学动态",
+      "bucket": "中文期刊",
+      "url": "#",
+      "priority": "low",
+      "score": 55,
+      "tags": [
+        "AI",
+        "研究综述",
+        "经济学方法"
+      ],
+      "question": "生成式 AI 会如何改变经济学研究选题、数据和方法？",
+      "motivation": "AI 不只是研究对象，也在改变研究生产方式。",
+      "innovation": "从研究工具、数据生成和理论建模三个层面梳理。",
+      "mechanism": "AI 降低文本处理和假设生成成本，但也带来可重复性和偏误问题。",
+      "method": "综述型文章。",
+      "findings": "示例占位。",
+      "relevance": "适合作为开阔思路的泛读材料。"
+    },
+    {
+      "id": "demo-trade-19",
+      "title": "示例 | Supply Chain Competition and Working Capital Finance",
+      "zh": "供应链竞争与营运资本融资",
+      "authors": "Sample Authors",
+      "date": "2025-01-21",
+      "source": "SSRN",
+      "bucket": "回溯补库",
+      "url": "#",
+      "priority": "low",
+      "score": 53,
+      "tags": [
+        "公司金融",
+        "供应链",
+        "融资"
+      ],
+      "question": "供应链竞争如何影响企业营运资本融资？",
+      "motivation": "竞争压力会通过账期和贸易信用传导到融资需求。",
+      "innovation": "从供应链网络角度分析融资压力。",
+      "mechanism": "强势买方延长账期，弱势供应商依赖银行信贷或商业信用。",
+      "method": "供应链关系、账期、银行贷款数据。",
+      "findings": "示例占位。",
+      "relevance": "公司金融背景文献，和内卷竞争间接相关。"
+    },
+    {
+      "id": "demo-management-world-20",
+      "title": "示例 | 平台算法、劳动者行为与组织控制",
+      "zh": "平台算法、劳动者行为与组织控制",
+      "authors": "示例作者",
+      "date": "2024-12-16",
+      "source": "管理世界",
+      "bucket": "中文期刊",
+      "url": "#",
+      "priority": "low",
+      "score": 52,
+      "tags": [
+        "算法",
+        "劳动经济学",
+        "平台经济"
+      ],
+      "question": "平台算法如何影响劳动者努力、收入波动和组织控制？",
+      "motivation": "算法管理是 AI 与劳动关系交叉的重要场景。",
+      "innovation": "把算法分配、绩效反馈和劳动者策略反应结合。",
+      "mechanism": "算法透明度不足提高不确定性，劳动者通过延长在线时间对冲收入风险。",
+      "method": "平台数据、骑手行为、制度变动。",
+      "findings": "示例占位。",
+      "relevance": "适合 AI/算法 × 劳动经济学方向。"
+    }
+  ],
+  "trends": [
+    {
+      "title": "AI 研究正在从替代效应转向组织机制",
+      "body": "更有价值的问题不是 AI 会不会替代劳动，而是任务、岗位、管理结构和企业边界如何被重新组织。"
+    },
+    {
+      "title": "内卷式竞争可以被具体化为可见努力竞赛",
+      "body": "rat race、tournament、加班和教育竞争可以统一到相对绩效、信号成本和低效率努力的机制里。"
+    },
+    {
+      "title": "银行数字化与风险承担需要一起看",
+      "body": "AI 信贷可能改善定价，也可能把风险推向模型盲区，是银行和金融稳定方向的好交叉点。"
+    },
+    {
+      "title": "中文期刊适合做制度背景补强",
+      "body": "中国企业、银行和劳动制度提供了很多国外 working paper 不易覆盖的机制场景。"
+    },
+    {
+      "title": "文本测度会成为你的基础工具箱",
+      "body": "AI 暴露、数字化转型、竞争压力和披露质量都可以通过文本数据构造更细的指标。"
+    },
+    {
+      "title": "回溯池比日更更重要",
+      "body": "经济学期刊更新慢、working paper 生命周期长，过去一年滚动补库能减少重要文章漏读。"
+    }
+  ],
+  "sources": [
+    {
+      "name": "NBER",
+      "freq": "每日检查，回看 14 天",
+      "status": "高优先级",
+      "note": "适合追 working papers 和专题项目。"
+    },
+    {
+      "name": "SSRN",
+      "freq": "每日检查，回看 14 天",
+      "status": "高优先级",
+      "note": "适合公司金融、金融科技和管理学交叉。"
+    },
+    {
+      "name": "arXiv",
+      "freq": "每日检查，强过滤",
+      "status": "辅助来源",
+      "note": "只收经济学、金融、社会科学应用和计量方法相关文章。"
+    },
+    {
+      "name": "OpenAlex/Crossref",
+      "freq": "每周补全元数据",
+      "status": "补库来源",
+      "note": "用于 DOI、期刊、作者和摘要补全。"
+    },
+    {
+      "name": "英文经济学顶刊",
+      "freq": "每周检查，回看 12 个月",
+      "status": "期刊池",
+      "note": "American Economic Review、Review of Economic Studies、Review of Economics and Statistics。"
+    },
+    {
+      "name": "英文金融与银行期刊",
+      "freq": "每周检查，回看 12 个月",
+      "status": "期刊池",
+      "note": "Journal of Financial Economics、Journal of Banking and Finance、Journal of Corporate Finance。"
+    },
+    {
+      "name": "英文管理与计量期刊",
+      "freq": "每周检查，回看 12 个月",
+      "status": "期刊池",
+      "note": "Management Science、Journal of Business & Economic Statistics、Journal of Economic Behavior and Organization。"
+    },
+    {
+      "name": "中文顶刊",
+      "freq": "每周/每月轮换",
+      "status": "期刊池",
+      "note": "经济研究、管理世界、金融研究、中国工业经济等。"
+    },
+    {
+      "name": "用户反馈",
+      "freq": "持续更新",
+      "status": "偏好信号",
+      "note": "你收藏或忽略的卡片会影响之后排序。"
+    }
+  ],
+  "archive": [
+    {
+      "day": "2026-06-07",
+      "label": "原型日",
+      "desc": "20 篇示例卡片，覆盖 AI、劳动、银行、公司金融、内卷式竞争。",
+      "count": "20 篇"
+    },
+    {
+      "day": "2026-06-06",
+      "label": "计划日",
+      "desc": "新增池、回溯池、中文期刊池的配比确定。",
+      "count": "待接入"
+    },
+    {
+      "day": "2026-06-05",
+      "label": "配置日",
+      "desc": "研究兴趣画像和来源清单草案。",
+      "count": "待接入"
+    }
+  ]
+}
